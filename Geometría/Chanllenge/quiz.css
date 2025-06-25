@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.fa-arrow-right{
+    margin-left: 12px;
+}
+
+
+
+
+
+.section{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.section.activeSection{
+    display: flex;
+}
+
+.elements{
+    display: flex;
+    align-items: center;
+}
+.elements img{
+    height: 250px;
+    margin-right: 25px;
+}
+
+.ortoedro .selected-option{
+    min-width: 80px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    margin: 0 12px;
+}
+
+
+
+.user-selected-option{
+    padding: 0 30px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
+.feedback-image{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+
+.content{
+    justify-content: space-between;
+}
+
+.anwers-container{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.section.active{
+    display: flex;
+}
+
+
+
+
